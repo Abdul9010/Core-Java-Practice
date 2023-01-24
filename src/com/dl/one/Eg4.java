@@ -1,18 +1,14 @@
 package com.dl.one;
 
 public class Eg4 {
+	
+	String firstname = "Ayaan";
 
 	public static void main(String[] args) {
-		// Ternary operator
 		
-		int a = 10;
-		int b;
+		Eg4 eg4 = new Eg4();
 		
-		b = (a ==1 )? 10 : 20;
-		System.out.println(b);
-		
-		b = (a ==10 )? 10 : 20;
-		System.out.println(b);
+		System.out.println("this is instance varibale" + new Eg4().firstname);
 		
 		
 
